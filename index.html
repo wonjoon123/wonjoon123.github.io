@@ -1,31 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Javascript</h1>
+        <div class="container">
+            <h1>John Doe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-   
-    <nav>
-        <ol>
-            <li><a href='http://www.naver.com'>클릭해보세요</a></li>
-            <li><a href='http://blog.naver.com/sml_07006'>제 블로그 입니다</a></li>
-            <li><a href='https://github.com/wonjoon123'>깃허브</a></li>
-            <li>혜연이 바부</li>
-            
-        </ol>
-    </nav>
 
-    <article>
-        <h2>연산자란?</h2>
-        <ul>
-            <li>연산자는 + - * / 등의 두가지 변수 또는 상수를 계산하게 만들어 주는 기호이다</li>
-        </ul>
-    </article>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm John Doe, a web developer with a passion for creating beautiful and functional websites. I
+            specialize in HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A brief description of Project 1. It's an amazing project that showcases my skills in web development.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A brief description of Project 2. This project highlights my ability to solve complex problems.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to email me at <a
+                href="mailto:john.doe@example.com">john.doe@example.com</a>.</p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
