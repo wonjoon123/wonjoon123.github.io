@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="임의의 주소">
+        <p><label for="id">id</label>: <input id='id' type="text" name="id" value="default"></p>
+        <p>
+            <label for="password">password</label>: 
+            <input id = 'password' type="password" name="pwd" value="default">
+        </p>
+        <p>
+            <label>textarea: 
+                <textarea cols='20' rows="2">default value</textarea>
+            </label>
+            <!-- 이렇게 묶어도 됨. -->
+        </p>
+
+        <p>
+            <label>
+                붉은색 <input type="checkbox" name="color" value="red"> 
+            </label>
+            <label for="green">
+                초록색 <input type="checkbox" name="color" id="green" value="green">
+            </label>
+        </p>
+
+        <input type="submit" value="제출해라">
+    </form>
+</body>
+</html>
